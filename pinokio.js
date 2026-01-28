@@ -1,7 +1,7 @@
 module.exports = {
   version: "5.0",
   title: "HeartMuLa Studio",
-  description: "A professional, Suno-like music generation studio for HeartLib",
+  description: "A professional, Suno-like music generation studio for HeartLib https://github.com/fspecii/HeartMuLa-Studio",
   icon: "icon.svg",
   menu: async (kernel, info) => {
     let installed = info.exists("app") && (info.exists("app/venv") || info.exists("venv"))

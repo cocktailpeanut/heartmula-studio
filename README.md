@@ -3,6 +3,8 @@
 ## What it does
 HeartMuLa Studio is a professional, Suno-like AI music generation studio built on HeartLib. It can generate full songs with vocals, instrumentals, lyrics, and style tags, and includes a modern UI with history, likes, playlists, and real-time progress.
 
+This repository is a launcher for HeartMula Studio https://github.com/fspecii/HeartMuLa-Studio
+
 ## Quick start (Pinokio)
 1. Click **Install** to clone the repo and install Python and Node dependencies.
 2. Click **Start** to launch the backend and frontend.
