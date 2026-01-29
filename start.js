@@ -6,7 +6,13 @@ module.exports = {
       params: {
         venv: "venv",
         env: {
-          "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+          // PyTorch memory optimization
+          "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True",
+          // HeartMuLa VRAM optimization - auto-detect based on GPU
+          "HEARTMULA_4BIT": "auto",
+          "HEARTMULA_SEQUENTIAL_OFFLOAD": "auto",
+          // Disable torch.compile by default (causes long first-run compilation)
+          "HEARTMULA_COMPILE": "false"
         },
         path: "app",
         message: [
